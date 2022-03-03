@@ -1,7 +1,6 @@
 package com.mymyeong.springmvc.servlet.basic.response;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
