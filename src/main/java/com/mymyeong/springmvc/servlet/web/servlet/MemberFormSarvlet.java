@@ -9,12 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.mymyeong.springmvc.servlet.domain.member.MemberRepository;
-
 @WebServlet(name = "memberFormServlet", urlPatterns = "/servlet/members/newform")
 public class MemberFormSarvlet extends HttpServlet {
-
-//	private MemberRepository memberRepository = MemberRepository.getInstance();
 
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
