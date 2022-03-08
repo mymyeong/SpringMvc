@@ -3,10 +3,12 @@ package com.mymyeong.springmvc.servlet.domain.member;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
 @Getter
 @Setter
 @NoArgsConstructor
+@ToString
 public class Member {
 
 	private Long id;
