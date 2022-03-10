@@ -33,13 +33,13 @@ public class MemberSaveSarvlet extends HttpServlet {
 				" <meta charset=\"UTF-8\">\n" + //
 				"</head>\n" + //
 				"<body>\n" + //
-				"¼º°ø\n" + //
+				"ì„±ê³µ\n" + //
 				"<ul>\n" + //
 				" <li>id=" + member.getId() + "</li>\n" + //
 				" <li>username=" + member.getUserName() + "</li>\n" + //
 				" <li>age=" + member.getAge() + "</li>\n" + //
 				"</ul>\n" + //
-				"<a href=\"/index.html\">¸ŞÀÎ</a>\n" + //
+				"<a href=\"/index.html\">ë©”ì¸</a>\n" + //
 				"</body>\n" + //
 				"</html>");
 	}

@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.mymyeong.springmvc.servlet.domain.member.Member;
 import com.mymyeong.springmvc.servlet.domain.member.MemberRepository;
 
-@WebServlet(name = "nemberListServlet", urlPatterns = "/servlet/members/list")
+@WebServlet(name = "nemberListServlet", urlPatterns = "/servlet/members")
 public class MemberListServlet extends HttpServlet {
 
 	private MemberRepository memberRepository = MemberRepository.getInstance();
@@ -32,7 +32,7 @@ public class MemberListServlet extends HttpServlet {
 		w.write(" <title>nemberListServlet</title>");
 		w.write("</head>");
 		w.write("<body>");
-		w.write("<a href=\"/index.html\">∏ﬁ¿Œ</a>");
+		w.write("<a href=\"/index.html\">Î©îÏù∏</a>");
 		w.write("<table>");
 		w.write(" <thead>");
 		w.write(" <th>id</th>");

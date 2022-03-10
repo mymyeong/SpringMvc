@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "memberFormServlet", urlPatterns = "/servlet/members/newform")
+@WebServlet(name = "memberFormServlet", urlPatterns = "/servlet/members/new-form")
 public class MemberFormSarvlet extends HttpServlet {
 
 	@Override
@@ -27,7 +27,7 @@ public class MemberFormSarvlet extends HttpServlet {
 				+ "<form action=\"/servlet/members/save\" method=\"post\">\n" //
 				+ " userName: <input type=\"text\" name=\"userName\" />\n" //
 				+ " age: <input type=\"text\" name=\"age\" />\n" //
-				+ " <button type=\"submit\">Àü¼Û</button>\n" //
+				+ " <button type=\"submit\">ì „ì†¡</button>\n" //
 				+ "</form>\n" //
 				+ "</body>\n" //
 				+ "</html>\n");
